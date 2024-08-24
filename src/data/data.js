@@ -1,4 +1,3 @@
-import Music from "../assets/projects/MusicPlayer.png";
 import Netflix from "../assets/projects/netflix.png";
 import Edtech from "../assets/projects/Ed-Tech.png";
 import Tiktaktoe from "../assets/projects/tiktaktoe.png";
