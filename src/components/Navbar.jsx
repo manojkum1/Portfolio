@@ -15,7 +15,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-black to-blue-900 ... text-gray-300'>
+    <div className=' w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-black to-blue-900 ... text-gray-300'>
       <div>
         {/* <img src={Logo} alt='Logo Image' style={{ width: '200px' }} /> */}
         <h1 className="text-2xl font-bold text-gray-400">
@@ -63,31 +63,31 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen   text-black font-semibold  bg-gray-700 flex flex-col justify-center items-center'
+            : 'absolute top-20 left-4 w-full h-30   bg-gradient-to-r from-black to-blue-900 ... font-semibold  grid grid-cols-3 text-gray-500  justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl hover:text-white hover:scale-110'>
+        <li className=' py-2 text-xl hover:text-white hover:scale-110'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl hover:text-white hover:scale-110'>
+        <li className=' py-2 text-xl hover:text-white hover:scale-110'>
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
         
-        <li className='py-6 text-4xl hover:text-white hover:scale-110'>
+        <li className=' py-2 text-xl hover:text-white hover:scale-110'>
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl hover:text-white hover:scale-110'>
+        <li className=' py-2 text-xl hover:text-white hover:scale-110'>
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className='py-6 text-4xl hover:text-white hover:scale-110'>
+        <li className=' py-2 text-xl hover:text-white hover:scale-110'>
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact
           </Link>
